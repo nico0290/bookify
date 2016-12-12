@@ -1,0 +1,8 @@
+bookify_webserver:
+    build: bookify_webserver
+    expose :
+        - "80"
+    ports:
+        - "80:80"
+    volumes:
+        - "../:/var/www/html/"
