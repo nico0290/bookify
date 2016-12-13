@@ -1,0 +1,13 @@
+{
+    "name": "hetic/bookify",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "silex/silex": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bookify\\": "src/"
+        }
+    }
+}
