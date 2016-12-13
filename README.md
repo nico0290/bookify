@@ -6,6 +6,10 @@ it also requires `docker-compose`
 brew install docker-compose
 ```
 
+```
+brew install ngrok
+```
+
 now you can install the project dependencies
 ```
 cd YOUFOLDER && make install
@@ -20,4 +24,9 @@ make start
 ### Stop the webserver
 ```
 make stop
+```
+
+### Run a distant server
+```
+ngrok http localhost:80
 ```
