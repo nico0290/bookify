@@ -4,7 +4,6 @@
     "license": "MIT",
     "require": {
         "silex/silex": "^2.0",
-        "thiagoalessio/tesseract_ocr": "^0.2.1"
     },
     "autoload": {
         "psr-4": {

@@ -2,26 +2,27 @@
 namespace Bookify\Controller;
 
 use Silex\Application;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
 
 class AnalyzerController
 {
     public function post(Request $request, Application $app)
     {
-        $files = $request->files->all();
+        $text = $request->request->get('text');
 
-        if (empty($files)) {
+        if (empty($text)) {
             return $app->json([
                 'error'   => true,
-                'message' => 'Malformed request'
+                'message' => 'invalid text'
             ]);
         }
 
-        $tesseract = new \TesseractOCR($files['picture_upload']['path']);
+        // text sent to the tone analyzer
 
         return $app->json([
             'error'   => false,
-            'musics'  => $files
+            'musics'  => [],
         ]);
     }
 }

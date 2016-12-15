@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "13b3ba734fc2de1eb812754dd00287db",
-    "content-hash": "3e62ecadb5756442de4a0f986d695a2b",
+    "hash": "22dfde875ec9fd92bd41e849187ca2d0",
+    "content-hash": "2d89bd908f7ee23a3faeead65adb9c77",
     "packages": [
         {
             "name": "pimple/pimple",
@@ -187,7 +187,7 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
@@ -244,7 +244,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -304,7 +304,7 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
@@ -357,16 +357,16 @@
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "19ba70df47c062065b9f99522feb73d64856ba8e"
+                "reference": "8fedefadee9c91567414a07130c81e7c406fe68a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/19ba70df47c062065b9f99522feb73d64856ba8e",
-                "reference": "19ba70df47c062065b9f99522feb73d64856ba8e",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/8fedefadee9c91567414a07130c81e7c406fe68a",
+                "reference": "8fedefadee9c91567414a07130c81e7c406fe68a",
                 "shasum": ""
             },
             "require": {
@@ -435,7 +435,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-30 08:46:02"
+            "time": "2016-12-13 13:19:46"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -498,7 +498,7 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
@@ -573,60 +573,60 @@
         },
         {
             "name": "thiagoalessio/tesseract_ocr",
-            "version": "0.2.1",
+            "version": "1.0.0-RC",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thiagoalessio/tesseract-ocr-for-php.git",
-                "reference": "4a594f46fb5003104e8ba377d643c9ce87f272c9"
+                "reference": "b22008ee163330aaaaae97424aa8b7dde8246882"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thiagoalessio/tesseract-ocr-for-php/zipball/4a594f46fb5003104e8ba377d643c9ce87f272c9",
-                "reference": "4a594f46fb5003104e8ba377d643c9ce87f272c9",
+                "url": "https://api.github.com/repos/thiagoalessio/tesseract-ocr-for-php/zipball/b22008ee163330aaaaae97424aa8b7dde8246882",
+                "reference": "b22008ee163330aaaaae97424aa8b7dde8246882",
                 "shasum": ""
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "5.3.2"
             },
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "TesseractOCR/"
+                    "src"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "Apache-2.0"
             ],
             "authors": [
                 {
-                    "name": "Thiago Alessio",
+                    "name": "Thiago Alessio Pereira",
                     "email": "thiagoalessio@me.com",
-                    "homepage": "http://thiagoalessio.com"
+                    "homepage": "http://thiagoalessio.me"
                 }
             ],
-            "description": "A wrapper to work with TesseractOCR inside PHP",
+            "description": "A wrapper to work with Tesseract OCR inside PHP.",
             "keywords": [
                 "OCR",
                 "Tesseract",
                 "text recognition"
             ],
-            "time": "2015-04-02 13:59:48"
+            "time": "2016-04-20 23:29:55"
         }
     ],
     "packages-dev": [
         {
             "name": "symfony/var-dumper",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "86f4e8aeb07bd5fb467f6bdd599a30298d19fa5f"
+                "reference": "f722532b0966e9b6fc631e682143c07b2cf583a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/86f4e8aeb07bd5fb467f6bdd599a30298d19fa5f",
-                "reference": "86f4e8aeb07bd5fb467f6bdd599a30298d19fa5f",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/f722532b0966e9b6fc631e682143c07b2cf583a0",
+                "reference": "f722532b0966e9b6fc631e682143c07b2cf583a0",
                 "shasum": ""
             },
             "require": {
@@ -676,12 +676,14 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-11-29 10:33:09"
+            "time": "2016-12-11 14:34:22"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "thiagoalessio/tesseract_ocr": 5
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

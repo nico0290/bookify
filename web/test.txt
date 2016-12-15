@@ -1,0 +1,14 @@
+Array
+(
+    [photo_png] => Symfony\Component\HttpFoundation\File\UploadedFile Object
+        (
+            [test:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 
+            [originalName:Symfony\Component\HttpFoundation\File\UploadedFile:private] => photo.png
+            [mimeType:Symfony\Component\HttpFoundation\File\UploadedFile:private] => image/png
+            [size:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 155868
+            [error:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 0
+            [pathName:SplFileInfo:private] => /tmp/phpZBIWd8
+            [fileName:SplFileInfo:private] => phpZBIWd8
+        )
+
+)
