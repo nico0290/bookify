@@ -11,7 +11,7 @@ $app['debug'] = true;
 
 // ROUTES
 $app->get('/', 'Bookify\Controller\DummyController::get');
-$app->post('/analyze', 'Bookify\Controller\AnalyzerController::post');
+$app->get('/analyze', 'Bookify\Controller\AnalyzerController::post');
 // END ROUTES
 
 
